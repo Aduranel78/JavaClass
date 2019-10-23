@@ -1,0 +1,32 @@
+package day11;
+
+import java.util.Scanner;
+
+public class forLoops3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("write a text ");
+            String line = scanner.nextLine();
+            if (line.equals("quit")) {
+                break;
+            }
+            if (line.contains("@") || line.contains("$") || line.contains("*")) {
+                System.out.println("strong password ");
+            } else {
+                System.out.println("week password ");
+            }
+            if (line.equalsIgnoreCase("quit")) {
+                break;
+            }
+            if (line==line.toUpperCase()) {
+                System.out.println("use uppercase letters ");
+            }
+            else if (line==line.toLowerCase()) {
+                System.out.println("use lowercase letters ");
+            }
+
+
+        }
+    }
+}
