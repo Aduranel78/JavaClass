@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class dersClisma2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("provide a temperature");
+        System.out.println("provide a temperature is");
         int temperature = scan.nextInt();
         if (temperature > 80) {
             System.out.println("HOT");
