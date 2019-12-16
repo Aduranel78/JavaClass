@@ -2,12 +2,12 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Program1" type="CLASS" />
-      <mapping pattern="Day7" type="CLASS" />
       <mapping pattern="arraytest1" type="CLASS" />
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="day7aysegul" type="JAVA" />
+      <mapping pattern="Day7" type="CLASS" />
       <mapping pattern="Day8" type="JAVA" />
+      <mapping pattern="day7aysegul" type="JAVA" />
+      <mapping pattern="mystyle" type="PLAIN_TEXT" />
+      <mapping pattern="*.js.flow" type="Flow" />
     </extensionMap>
   </component>
 </application>
